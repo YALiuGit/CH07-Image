@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="weekday">
+        <item>Sunday</item>
+        <item>Monday</item>
+        <item>Tuesday</item>
+        <item>Wednesday</item>
+        <item>Thursday</item>
+        <item>Friday</item>
+        <item>Saturday</item>
+        <item>Eight</item>
+        <item>Nine</item>
+    </string-array>
+    <string-array name="weekday02">
+        <item>星期日#去睡覺</item>
+        <item>星期一#穿新衣</item>
+        <item>星期二#肚子餓</item>
+        <item>星期三#去爬山</item>
+        <item>星期四#去考試</item>
+        <item>星期五#去跳舞</item>
+        <item>星期六#去溜溜</item>
+        <item>星期八 #去開趴</item>
+        <item>星期九 #去買酒</item>
+    </string-array>
+</resources>

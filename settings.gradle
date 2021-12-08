@@ -10,3 +10,6 @@ rootProject.name = "CH07-Image"
 include ':0700_LifeCycle'
 include ':0701_ImageSwitcher'
 include ':0702_Animation'
+include ':0703_HorizontalScrollView'
+include ':0704_ListView_with_icons'
+include ':0705_Game_Animation'

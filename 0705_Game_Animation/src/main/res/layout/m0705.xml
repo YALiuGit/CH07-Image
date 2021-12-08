@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/m0705_r001"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back03"
+    android:padding="@dimen/p10">
+
+    <TextView
+        android:id="@+id/m0705_t001"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/Yellow"
+        android:gravity="center"
+        android:text="@string/m0705_t001"
+        android:textColor="@color/Fuchsia"
+        android:textSize="@dimen/Headfont"
+        android:textStyle="bold"
+        tools:ignore="TextContrastCheck" />
+
+    <TextView
+        android:id="@+id/m0705_t002"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/m0705_t001"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="@dimen/Margins"
+        android:layout_marginTop="@dimen/Margins"
+        android:background="@color/Aqua"
+        android:gravity="center"
+        android:text="@string/m0705_t002"
+        android:textColor="@color/Teal"
+        android:textSize="@dimen/fontsize"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/m0705_t003"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/m0705_t001"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="@dimen/Margins"
+        android:layout_marginEnd="@dimen/Margins"
+        android:background="@color/Aqua"
+        android:gravity="center"
+        android:text="@string/m0705_t003"
+        android:textColor="@color/Teal"
+        android:textSize="@dimen/fontsize"
+        android:textStyle="bold" />
+
+    <ImageSwitcher
+        android:id="@+id/m0705_c001"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/m0705_t002"
+        android:layout_alignTop="@+id/m0705_b002"
+        android:layout_marginStart="@dimen/Margins"
+        android:background="#00000000"
+        android:contentDescription="@string/m0705_s001comp"
+        android:gravity="center"
+        android:text="@string/m0705_b001"
+        android:textColor="@color/Black"
+        android:textSize="@dimen/fontsize"
+        app:srcCompat="@drawable/scissors"
+        tools:ignore="ImageContrastCheck" />
+
+    <ImageButton
+        android:id="@+id/m0705_b001"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/m0705_t003"
+        android:layout_alignEnd="@+id/m0705_t003"
+        android:layout_marginTop="@dimen/Margins"
+        android:layout_marginEnd="@dimen/p10"
+        android:background="#00000000"
+        android:contentDescription="@string/m0705_b001"
+        android:src="@drawable/scissors"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <ImageButton
+        android:id="@+id/m0705_b002"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/m0705_b001"
+        android:layout_alignEnd="@+id/m0705_b001"
+        android:layout_marginTop="10dp"
+        android:background="#00000000"
+        android:contentDescription="@string/m0705_b002"
+        android:src="@drawable/stone"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <ImageButton
+        android:id="@+id/m0705_b003"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/m0705_b002"
+        android:layout_alignEnd="@+id/m0705_b002"
+        android:layout_marginTop="@dimen/Margins"
+        android:background="#00000000"
+        android:contentDescription="@string/m0705_b003"
+        android:src="@drawable/net"
+        tools:ignore="SpeakableTextPresentCheck,ImageContrastCheck" />
+
+    <TextView
+        android:id="@+id/m0705_s001"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/m0705_b003"
+        android:layout_marginTop="@dimen/Margins"
+        android:background="@color/Silver"
+        android:text="@string/m0705_s001"
+        android:textColor="@color/Red"
+        android:textSize="@dimen/fontsize"
+        android:textStyle="bold"
+        tools:ignore="TextContrastCheck" />
+
+    <TextView
+        android:id="@+id/m0705_f000"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/m0705_s001"
+        android:layout_marginTop="@dimen/Margins"
+        android:background="@color/White"
+        android:text="@string/m0705_f000"
+        android:textColor="@color/black"
+        android:textSize="@dimen/fontsize"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/myname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="@dimen/Margins"
+        android:layout_marginBottom="@dimen/Margins"
+        android:text="@string/myname"
+        android:textColor="@color/Yellow"
+        android:textSize="@dimen/fontsize" />
+
+</RelativeLayout>
