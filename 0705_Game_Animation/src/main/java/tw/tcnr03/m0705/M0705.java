@@ -4,7 +4,9 @@ import android.graphics.Color;
 import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.view.View;
+import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
+import android.view.animation.BounceInterpolator;
 import android.widget.ImageButton;
 import android.widget.ImageSwitcher;
 import android.widget.ImageView;
@@ -123,6 +125,13 @@ public class M0705 extends AppCompatActivity implements
                     }
                     break;
             }
+//           -------------電腦出拳增加動畫---------------
+            imgSwi_comp.clearAnimation();
+            Animation anim = AnimationUtils.loadAnimation(getApplicationContext(), R.anim.anim_trans_in);//down
+            anim.setInterpolator(new BounceInterpolator());//jump
+            imgSwi_comp.setAnimation(anim);
+//            -----------------------------------------------
+
             s001.setText(u_select);
             f000.setText(ans);
         }
@@ -140,9 +149,10 @@ public class M0705 extends AppCompatActivity implements
         b001 = (ImageButton) findViewById(R.id.m0705_b001);
 //    startmusic = MediaPlayer.create(getApplication(), R.raw.guess);
 //    startmusic.start();
-
         b002 = (ImageButton) findViewById(R.id.m0705_b002);
         b003 = (ImageButton) findViewById(R.id.m0705_b003);
+        //--設定imageutton初始值為全透明B
+        u_setalpha();
         c001 = (ImageSwitcher) findViewById(R.id.m0705_c001);
         s001 = (TextView) findViewById(R.id.m0705_s001);
         f000 = (TextView) findViewById(R.id.m0705_f000);
@@ -170,11 +180,11 @@ public class M0705 extends AppCompatActivity implements
     private void u_setalpha() {
 //        imageButton 背景為灰色且為全透明
 //        setBackgroundColor(Color.XXX)為新方法，講義為舊方法。
-        b001.setBackgroundColor(Color.GRAY);
+        b001.setBackgroundResource(R.drawable.circle_shape);
         b001.getBackground().setAlpha(0); //0-255
-        b002.setBackgroundColor(Color.GRAY);
+        b002.setBackgroundResource(R.drawable.circle_shape);
         b002.getBackground().setAlpha(0);
-        b003.setBackgroundColor(Color.GRAY);
+        b003.setBackgroundResource(R.drawable.circle_shape);
         b003.getBackground().setAlpha(0);
     }
 

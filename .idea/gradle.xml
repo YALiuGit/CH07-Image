@@ -16,6 +16,7 @@
             <option value="$PROJECT_DIR$/0703_HorizontalScrollView" />
             <option value="$PROJECT_DIR$/0704_ListView_with_icons" />
             <option value="$PROJECT_DIR$/0705_Game_Animation" />
+            <option value="$PROJECT_DIR$/0706_TextView_setup" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />

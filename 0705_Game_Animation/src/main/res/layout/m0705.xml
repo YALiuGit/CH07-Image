@@ -6,7 +6,9 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/back03"
-    android:padding="@dimen/p10">
+    android:padding="@dimen/p10"
+    android:clipChildren="false"
+    >
 
     <TextView
         android:id="@+id/m0705_t001"
@@ -57,7 +59,7 @@
         android:layout_alignStart="@+id/m0705_t002"
         android:layout_alignTop="@+id/m0705_b002"
         android:layout_marginStart="@dimen/Margins"
-        android:background="#00000000"
+        android:background="@drawable/ring"
         android:contentDescription="@string/m0705_s001comp"
         android:gravity="center"
         android:text="@string/m0705_b001"
@@ -74,7 +76,7 @@
         android:layout_alignEnd="@+id/m0705_t003"
         android:layout_marginTop="@dimen/Margins"
         android:layout_marginEnd="@dimen/p10"
-        android:background="#00000000"
+        android:background="@drawable/circle_shape"
         android:contentDescription="@string/m0705_b001"
         android:src="@drawable/scissors"
         tools:ignore="SpeakableTextPresentCheck" />
@@ -86,7 +88,7 @@
         android:layout_below="@+id/m0705_b001"
         android:layout_alignEnd="@+id/m0705_b001"
         android:layout_marginTop="10dp"
-        android:background="#00000000"
+        android:background="@drawable/circle_shape"
         android:contentDescription="@string/m0705_b002"
         android:src="@drawable/stone"
         tools:ignore="SpeakableTextPresentCheck" />
@@ -98,7 +100,7 @@
         android:layout_below="@+id/m0705_b002"
         android:layout_alignEnd="@+id/m0705_b002"
         android:layout_marginTop="@dimen/Margins"
-        android:background="#00000000"
+        android:background="@drawable/circle_shape"
         android:contentDescription="@string/m0705_b003"
         android:src="@drawable/net"
         tools:ignore="SpeakableTextPresentCheck,ImageContrastCheck" />

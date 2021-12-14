@@ -15,9 +15,12 @@
         <entry key="..\:/android-work/CH07-Image/0703_HorizontalScrollView/src/main/res/menu/m0703.xml" value="0.6324626865671642" />
         <entry key="..\:/android-work/CH07-Image/0704_ListView_with_icons/src/main/res/layout/list_item.xml" value="0.25651808242220353" />
         <entry key="..\:/android-work/CH07-Image/0704_ListView_with_icons/src/main/res/layout/m0704.xml" value="0.33" />
+        <entry key="..\:/android-work/CH07-Image/0705_Game_Animation/src/main/res/drawable/circle_shape.xml" value="0.2712962962962963" />
+        <entry key="..\:/android-work/CH07-Image/0705_Game_Animation/src/main/res/drawable/ring.xml" value="0.22" />
         <entry key="..\:/android-work/CH07-Image/0705_Game_Animation/src/main/res/layout/m0705.xml" value="0.2606837606837607" />
         <entry key="..\:/android-work/CH07-Image/0705_Game_Animation/src/main/res/mipmap-anydpi-v26/ic_launcher_m0605_round.xml" value="0.2729184188393608" />
         <entry key="..\:/android-work/CH07-Image/0705_Game_Animation/src/main/res/mipmap-anydpi-v26/ic_launcher_m0705.xml" value="0.2729184188393608" />
+        <entry key="..\:/android-work/CH07-Image/0706_TextView_setup/src/main/res/layout/m0706.xml" value="0.25" />
       </map>
     </option>
   </component>
