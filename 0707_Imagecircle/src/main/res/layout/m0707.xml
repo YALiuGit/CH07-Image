@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Silver"
+    tools:context=".M0707">
+
+    <TextView
+        android:id="@+id/m0707_t001"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="200dp"
+        android:text="@string/m0707_t001"
+        android:textColor="@color/Navy"
+        android:textSize="@dimen/fontsize" />
+
+    <TextView
+        android:id="@+id/m0707_myname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="@dimen/p10"
+        android:layout_marginBottom="@dimen/p10"
+        android:text="@string/myname"
+        android:textSize="@dimen/fontsize" />
+
+    <tw.tcnr03.m0707.CircleImgView
+        android:id="@+id/m0707_circleImgview"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="100dp"
+        android:background="#00000000"
+        android:scaleType="matrix"
+        app:srcCompat="@drawable/img09th" />
+
+    <tw.tcnr03.m0707.CircleImgbutton
+        android:id="@+id/m0707_circleimagebutton"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="100dp"
+        android:background="#00000000"
+        android:scaleType="matrix"
+        app:srcCompat="@drawable/photo" />
+
+</RelativeLayout>

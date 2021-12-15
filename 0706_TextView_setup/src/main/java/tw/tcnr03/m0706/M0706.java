@@ -42,7 +42,7 @@ public class M0706 extends AppCompatActivity implements View.OnClickListener {
 //        Spannable.SPAN_INCLUSIVE_EXCLUSIVE：前面包括，後面不包括。
 //        Spannable.SPAN_INCLUSIVE_INCLUSIVE：前後都包括。
 //        ---------------------
-        SpannableString sp = new SpannableString(getString(R.string.m0706_t001,"I am YA"));
+        SpannableString sp = new SpannableString(getString(R.string.m0706_t001,"I am YA")); //在第一個雙引號後加 , 再雙引號新增參照
         //設置字體顏色
         sp.setSpan( new ForegroundColorSpan(Color.BLUE), 0, 3, Spannable.SPAN_EXCLUSIVE_EXCLUSIVE);
         sp.setSpan( new BackgroundColorSpan(Color.RED), 21, 26, Spannable.SPAN_EXCLUSIVE_EXCLUSIVE);

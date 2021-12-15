@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="m0706_t001">這句話中有***,\nGoogle超連結,\n有高亮顯示,這樣,\n或者這樣粗體,\n還有斜體.%1$1s</string>
+    <string name="m0706_t001">這句話中有***,\nGoogle超連結,\n有高亮顯示,這樣,\n或者這樣粗體,\n還有斜體.\n%2$1s%1$1s</string>
 </resources>
 
 <!--   %n$ms：n表示第n個參數，m表示在這個變數前面空幾格，s則表示為字串形式
